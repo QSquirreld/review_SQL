@@ -1,0 +1,20 @@
+create table bike_sales(
+order_date date,
+order_day smallint,
+order_month varchar(9),
+order_year smallint,
+customer_age smallint,
+customer_age_group varchar(20),
+customer_gender varchar(1),
+customer_country varchar(14),
+customer_state varchar(20),
+product_category varchar(12),
+product_subcategory varchar(20),
+product_name varchar(40),
+order_quantity smallint,
+unit_cost double precision,
+unit_price double precision,
+profit double precision,
+cost double precision,
+revenue double precision
+);
