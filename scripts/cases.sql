@@ -10,6 +10,6 @@ select product_category,
 		when revenue between 500 and 1000
 			then 'default tax'
 		else 'Another' -- если не добавить else, то будет null(пустое значение)
-	end as revenue_category,
+	end as tax_category,
 	revenue
 from bike_sales
